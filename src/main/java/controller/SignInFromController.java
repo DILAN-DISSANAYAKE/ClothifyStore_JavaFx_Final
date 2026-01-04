@@ -10,7 +10,6 @@ import javafx.fxml.Initializable;
 import javafx.scene.Scene;
 import javafx.scene.control.Alert;
 import javafx.stage.Stage;
-import lombok.RequiredArgsConstructor;
 import model.dto.UsersDTO;
 import model.enums.Role;
 import service.UsersService;
@@ -20,7 +19,6 @@ import java.io.IOException;
 import java.net.URL;
 import java.util.ResourceBundle;
 
-@RequiredArgsConstructor
 public class SignInFromController implements Initializable {
     private final UsersService usersService=new UsersServiceImp();
     Stage stage=new Stage();

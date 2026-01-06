@@ -1,6 +1,8 @@
 package repository;
 
+import model.entity.Users;
+
 public interface UsersRepository {
 
-    void authenticateUser(String email, String password);
+    Users authenticateUser(String email, String password);
 }
